@@ -80,6 +80,7 @@ section {
 
 .description {
     line-height: 1.5;
+    text-align: center;
 
     padding-bottom: 10px;
 }
@@ -92,4 +93,33 @@ section {
 
 .stats p {
     padding-bottom: 30px;
+}
+
+/* =============================================================================
+#DESKTOP
+============================================================================= */
+#mobile-img {display:block;}
+#desktop-img {display:none}
+
+@media  screen and (min-width: 800px) {
+    body {
+        /* background-color: red; */
+        /* display: flex;
+        flex-direction: row-reverse; */
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    picture  {
+        background-color: red;
+    }
+
+    picture img {
+        
+    }
+    
 }
