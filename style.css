@@ -14,6 +14,10 @@ h1 {
     font-size: 28px;
 }
 
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
 p {
     color: hsla(0, 0%, 100%, 0.75);
 }
@@ -112,14 +116,26 @@ section {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-    }
 
-    picture  {
-        background-color: red;
+        width: 50%;
+        height: auto;
     }
 
     picture img {
-        
+        background-color: red;
+        width: auto;
+        height: auto;
     }
-    
+
+    section {
+        width: 50%;
+    }
+
+    section h1 {
+        text-align: left;
+    }
+
+    .description {
+        text-align: left;
+    }
 }
