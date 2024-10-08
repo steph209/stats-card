@@ -131,7 +131,7 @@ section {
         width: 50%;
     }
 
-    section h1 {
+    .heading {
         text-align: left;
     }
 
